@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 4 Scrollspy</title>
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+</head>
+<body data-spy="scroll" data-target="#navbarNav" data-offset="50">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="#">Scrollspy</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav nav-pills">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#help">Help</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#blog">Blog</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Scrollable Content -->
+<div class="container mt-5 pt-5" style="position: relative; overflow-y: scroll; height: 500px;">
+    <section id="about" class="py-5">
+        <h2>About</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing eli Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis aut obcaecati ullam voluptatum ex illum velit eos asperiores nesciunt veniam eaque sequi repellendus neque dolorem inventore, reiciendis impedit ea rerum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, magnam autem quas illum voluptate corporis repudiandae dolore voluptatem, nobis fugit exercitationem cumque, labore eius dolor quisquam temporibus porro ipsum </p>
+    </section>
+
+    <section id="contact" class="py-5">
+        <h2>Contact</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, ratione nemo, veniam ipsum totam minus dolorum accusamus, nostrum molestias distinctio neque dolor? Magni reprehenderit quisquam dicta dolores itaque repudiandae facere! Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim sit quaerat, officia voluptas reiciendis in quo sapiente explicabo doloremque culpa? Id consequuntur, provident ratione repellendus saepe earum at voluptatum cumque? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit corporis quis, qui architecto dolores praesentium illum eum veritatis necessitatibus aliquam incidunt quae at ad, laboriosam velit aliquid. Adipisci, quod sequi.</p>
+    </section>
+
+    <section id="help" class="py-5">
+        <h2>Help</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit. In id rem animi dignissimos eaque vel hic. Ad, placeat laboriosam excepturi cum est quis optio. Perferendis nisi aspernatur cum! Vero, eos! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam vitae, placeat repellendus dolores cum sunt tempora explicabo quis ratione obcaecati omnis aliquid incidunt perspiciatis cupiditate velit eveniet amet illo magni? Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, laudantium cumque. Natus enim alias fugiat cupiditate, deleniti dicta debitis eos in dignissimos, officiis tenetur. Dolorum illum aperiam esse ab nemo.</p>
+    </section>
+
+    <section id="blog" class="py-5">
+        <h2>Blog</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique alias cum, saepe iure repellat ab ipsum libero nisi, iste, vitae mollitia laboriosam ex assumenda optio vero sequi minus deserunt? Praesentium! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat eligendi error tenetur minima optio numquam repellat, aliquid adipisci tempora eum veniam officia distinctio perspiciatis iste modi exercitationem iusto voluptatem quos? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi optio debitis maxime, aspernatur, suscipit esse est commodi quam, amet nostrum fugiat veritatis. Alias voluptas magnam inventore animi similique. Nobis, voluptate!</p>
+    </section>
+</div>
+
+<!-- Bootstrap 4 JS -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
