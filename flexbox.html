@@ -1,0 +1,49 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Flexbox Layout</title>
+    <!-- Bootstrap 4 CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .box {
+            background-color: lightblue;
+            padding: 20px;
+            margin: 10px;
+            text-align: center;
+            font-size: 1.2em;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2 class="text-center my-4">Responsive Flexbox Layout</h2><!-- Flexbox Row with Justify Content -->
+    <div class="d-flex flex-row justify-content-between flex-wrap p-3 border">
+        <div class="box flex-fill">1</div>
+        <div class="box flex-fill">2</div>
+        <div class="box flex-fill">3</div>
+    </div>
+    
+    <!-- Flexbox Column Layout -->
+    <div class="d-flex flex-column align-items-center p-3 border mt-3">
+        <div class="box">Item 1</div>
+        <div class="box">Item 2</div>
+        <div class="box">Item 3</div>
+    </div>
+    
+    <!-- Responsive Flexbox Order -->
+    <div class="d-flex flex-row flex-wrap p-3 border mt-3">
+        <div class="box order-3">Order 3</div>
+        <div class="box order-1">Order 1</div>
+        <div class="box order-2">Order 2</div>
+    </div>
+</div>
+
+<!-- Bootstrap JS (optional for advanced features) -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+</body>
+</html>
